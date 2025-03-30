@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2726ca5.css",
+    "main.js": "/static/js/main.e9c3f725.js",
+    "static/js/453.56f46472.chunk.js": "/static/js/453.56f46472.chunk.js",
+    "static/media/darkchristmas.jpg": "/static/media/darkchristmas.f9654c0b866bca0da984.jpg",
+    "static/media/greenleaves.jpg": "/static/media/greenleaves.7c473c973f1c0b75861c.jpg",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.5f048a6b5c4985678b28.png",
+    "static/media/profile.png": "/static/media/profile.ba70e289c3cd79ab46bf.png",
+    "static/media/bgimage.png": "/static/media/bgimage.27b18c492a92efd22a55.png",
+    "static/media/delete.png": "/static/media/delete.d17ac8205fc7f9ba016d.png",
+    "index.html": "/index.html",
+    "main.f2726ca5.css.map": "/static/css/main.f2726ca5.css.map",
+    "main.e9c3f725.js.map": "/static/js/main.e9c3f725.js.map",
+    "453.56f46472.chunk.js.map": "/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2726ca5.css",
+    "static/js/main.e9c3f725.js"
+  ]
+}
