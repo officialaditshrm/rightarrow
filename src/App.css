@@ -1,0 +1,456 @@
+html{
+  background-image:url("darkchristmas.jpg");
+  background-attachment: fixed;
+  background-position: 25%;
+}
+#detailing{
+  color: white;
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+/*Sign In*/
+input{
+  margin: 20px;
+  padding: 13px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  border: 1px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  color: white;
+  width: 60%;
+}
+input::placeholder{
+  color: rgba(200,200,200);
+}
+input:hover{
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+  background-color: rgba(0,0,0,0.6);
+}
+input:focus{
+  transform: scale(1.05);
+  transition-duration:0.1s;
+  outline: none;
+  background-color: rgba(0,0,0,0.6);
+}
+body{
+  text-align: center;
+  font-family:Verdana;
+}
+h1{
+  padding: 50px;
+  margin: 0px auto 50px;
+  font-size: 50px;
+  color: #ffffff;
+}
+#writeup{
+  font-family:Verdana;
+  font-size: 15px;
+  padding: 15px;
+  color: #ffffff;
+}
+#writeupabbr{
+  text-decoration: none;
+  color:aquamarine;
+}
+#logo{
+  position: absolute;
+  left: 8%;
+  height: 110px;
+  width: 100px;
+}
+.navbar {
+  background-color: rgba(255,255,255,0.5);
+  min-width: 400px;
+  max-width: 40%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+}
+.navbar > a{
+  position: relative;
+  top: 30%;
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 15px;
+}
+.navbar > a:hover{
+  transform: scale(1.05);
+  color: rgba(0,0,100);
+  text-shadow: 1px 1px 1px grey;
+  transition-duration: 0.1s;
+}
+/* SlideShow */
+#slideshow{
+  align-items: center;
+  margin: auto;
+}
+#slide-container{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+.slides{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+  background-image: url("./images/greenleaves.jpg");
+  background-size: cover;
+  
+}
+#divvv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+
+}
+.slide1{
+  width: 100%;
+  background-image: url("./images/bgimage.png");
+}
+.slide1 > img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+}
+#rightbutton{
+  background-color: rgba(255,255,255,0.5);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#leftbutton{
+  background-color: rgba(255,255,255,0.5);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#signinlink{
+  position:relative;
+  top: 70%;
+  transform: translateY(-70%);
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(42, 103, 102, 0.493);
+  display: block;
+}
+#signinlink:hover{
+  background-color: rgba(42, 103, 102, 0.8);
+  scale: 1.05;
+  transition-duration: 0.1s;
+}
+/* Footer */
+#endbuttons{
+  background-color: rgba(255,255,255,0.5);
+  padding:40px 30px 60px 30px;
+  margin:20px 15px 0px;
+  font-size: 15px;
+  font-family:verdana;
+  position:relative;
+  top:100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;;
+}
+#checkdiv{
+  float:left;
+  padding:10px 50px 10px 50px;
+  margin: 0px;
+}
+#checkdiv> a{
+  margin: 30px;
+  color: rgba(50,70,60);
+  text-decoration: none;
+  font-size: 15px;
+}
+#checkdiv>a:hover{
+  color: black;
+}
+#reportdiv{
+  padding: 10px 50px 10px 50px;
+  border: 1px solid rgba(50,70,60,0);
+  border-left-color: rgba(50,70,60);
+  float: right;
+}
+#reportdiv > a{
+  color: rgba(50,70,60);
+  text-decoration: none;
+  font-family:arial;
+}
+#report:hover{
+  color: black;
+}
+h2{
+  color: black;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.panel{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 50px;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgb(255,255,255,0));
+  border-radius: 30px;
+}
+.panel:empty{
+  display: none;
+
+}
+.signinlinks{
+  text-decoration: none;
+  color: rgba(200,200,200);
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.signinlinks:hover{
+  scale: 1.05;
+  transition-duration: 0.1s;
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 12px;
+  padding: 10px;
+}
+/*Sign Up*/
+#signuppage{
+  background-image: url("./images/greenleaves.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#signupimage{
+  width: 200px;
+  height: 240px;
+  margin: 10%;
+
+}
+.next{
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: rgb(34, 152, 103);
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+.next:hover{
+  background-color: rgb(34, 152, 103, 0.8);
+  scale: 1.05;
+  transition-duration: 0.1s;
+}
+#signupdisplay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.add{
+  font-weight: bolder;
+  padding: 3px 13px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(163, 197, 234);
+  color: black;
+}
+.add:hover{
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+  cursor: pointer;
+  background-color: rgb(103, 117, 204);
+}
+.tasklist {
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  list-style-type: none;
+  margin: 40px auto;
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#remove{
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+#remove img{
+  height: 20px;
+  width: auto;
+  padding: 8px;
+}
+#gangesriver{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+input[type="number"].no-spinners::-webkit-inner-spin-button,
+input[type="number"].no-spinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"].no-spinners {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.tasklist li{
+  width: 80%;
+  font-size: 15px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.tasklist li.checked{
+  text-decoration: line-through;
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+#remove:hover{
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+  cursor: pointer;
+  background-color: rgb(203, 137, 114);
+}
+.hehe{
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.hehe:hover{
+  background-color: rgba(0,0,0,0.2);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  margin: 5%;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(100,100,200,0.2));
+}
+#timetable{
+  border-collapse: collapse;
+}
+th{
+  background-color: rgba(200,200,255,0.4);
+}
+td,th{
+  border: 1px solid black;
+  padding: 20px 30px;
+}
+td{
+  background-color: rgba(255,255,255,0.4);
+}
+@media(max-width:900px){
+  hr{
+      width:auto;
+      margin:0px 150px 0px 150px;
+  }
+  #endbuttons{
+      height:100px;
+  }
+  #checkdiv{
+      float: none;
+      padding: 30px 20px 30px 20px;
+  }
+  #reportdiv{
+      padding:30px 20px 30px 20px;
+      margin:0px 130px 0px 130px;
+      border-left-color: rgba(50,70,60,0);
+      border-top-color:rgba(50,70,60);
+      float:none;
+  }
+  h1{
+    font-size:40px;
+    padding: 20px auto 0px;
+  }
+  #writeup{
+    font-size:12px;
+  }
+  #choicessignup{
+      padding: 25px;
+      font-size:17px;
+  }
+  .navbar{ 
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tasklist{
+    width: 80%;
+  }
+  .navbar > a{
+    display:block;
+    font-size: 14px;
+    margin: 10px 30px;
+  }
+  .todoapp{
+    padding: 100px 20px;
+  }
+  #top{
+    display: flex;
+    flex-direction: column;
+  }
+  #logo{
+    position: relative;
+    left: 0px;
+    margin: auto;
+  }
+  #slide-container{
+    height: 300px;
+  }
+  .panel{
+    width: 50%;
+    padding: none;
+    transition-duration: 0.2s;
+  }
+  #signupimage{
+    width: 150px;
+    height: 180px;
+  }
+}
+.completed {
+  text-decoration: line-through;
+}
