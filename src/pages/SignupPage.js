@@ -6,7 +6,7 @@ function SignupPage(){
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/");
+    navigate("/rightarrow");
   }
   return (
     <div id = "signuppage">
@@ -18,7 +18,7 @@ function SignupPage(){
           <input type="email" placeholder="Email" required /><br/>
           <input type="password" id="password" placeholder="Password" required /><br/>
           <button className="next" type="submit">Create</button>
-          <Link to="/" className="signinlinks">Already have an account? Sign In here.</Link>
+          <Link to="/rightarrow" className="signinlinks">Already have an account? Sign In here.</Link>
         </form>
       </div>
       <Footer/>

@@ -42,7 +42,7 @@ function ForgotPassword() {
       alert('Passwords do not match');
     } else {
       alert('Password changed successfully');
-      navigate('/');
+      navigate('/rightarrow');
     }
   };
 
@@ -56,7 +56,7 @@ function ForgotPassword() {
           <input type="number" className="no-spinners" placeholder="Enter OTP" value={otp} onChange={handleOtpChange} /><br/>
           <input type="password" placeholder="Enter new Password" value={password} onChange={handlePasswordChange} />
           <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
-          <button type="submit" className="next" to="/">Submit</button>
+          <button type="submit" className="next" to="/rightarrow">Submit</button>
         </>
       )}
     </form>

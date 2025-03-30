@@ -7,7 +7,7 @@ function Footer() {
             <Link id="careers" to="/dashboard">
                 Dashboard
             </Link>
-            <Link id="socials" to="/">
+            <Link id="socials" to="/rightarrow">
                 Signin
             </Link>
             <Link id="youtube" to="/about">
